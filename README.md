@@ -1,4 +1,4 @@
-Engineering leader in enterprise integration — I take large IBM estates (ACE, MQ, MQFTE, DataStage, DataPower) and land them on Java, Spring Boot and Azure.
+Engineering leader in enterprise integration.
 
 Thousands of interfaces and decades of middleware, moved without stopping the business — migration is an engineering problem, not a lift-and-shift.
 
