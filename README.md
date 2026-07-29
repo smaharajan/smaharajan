@@ -7,5 +7,5 @@ Interested in agentic engineering: building CLI agents that do the discovery, th
 ---
 
 <p align="center">
-  <img src="https://media.giphy.com/media/3o7btPCcdNniyf0ArS/giphy.gif" width="480" alt="Integration in progress" />
+  <img src="./cat.svg" alt="Integration Cat" width="400" />
 </p>
