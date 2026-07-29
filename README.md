@@ -6,28 +6,28 @@ Interested in agentic engineering: building CLI agents that do the discovery, th
 
 ---
 
-**"It's just one integration. Should take a sprint."**
+### Expectation vs. Reality in Enterprise Integration
 
 ```mermaid
-flowchart LR
-    A["System A"] ==> B["System B"]
+flowchart TD
+    subgraph EXPECTATION["📋 What the Architecture Slide Promised"]
+        direction LR
+        A1["System A"] ===>|"Clean REST API (JSON)"| B1["System B"]
+    end
+
+    subgraph REALITY["🔥 What Actually Runs Production at 3 AM"]
+        direction TB
+        A2["System A"] -->|"1. CSV drop via SFTP"| B2["Unattended Windows VM"]
+        B2 -->|"2. Secret Python 2.7 script"| C2["MQ Queue: DEV_TEST_FINAL_v2_PROD"]
+        C2 -->|"3. Legacy ACE / IIB Flow"| D2["Mainframe JCL Batch Job"]
+        D2 -->|"4. EBCDIC to ASCII magic"| E2["Database (Table: TEMP_FIX_2014)"]
+        E2 -->|"5. Scheduled SQL Task"| F2["Bob's Excel Macro"]
+        F2 -->|"6. Copy-Pasted into Web Form"| G2["System B"]
+
+        F2 -.->|"Bob left 7 years ago"| CRASH["💥 Unknown Error -1"]
+        C2 -.->|"Dead letter queue full"| CRASH
+    end
 ```
-
-**Two weeks later, in production:**
-
-```mermaid
-flowchart LR
-    A["System A"] --> Q["MQ queue<br/>owner: unknown"]
-    Q --> ACE["ACE flow<br/>last changed 2009"]
-    ACE --> FTP["flat file<br/>on an FTP box"]
-    FTP --> JCL["nightly batch<br/>02:00, do not ask"]
-    JCL --> XLS["Dave's Excel macro"]
-    XLS --> B["System B"]
-    Q -.->|"retry storm"| Q
-    XLS -.->|"Dave left in 2017"| GH["nobody knows"]
-```
-
-> This is why I do this for a living.
 
 ![Java](https://img.shields.io/badge/-Java-437291?style=flat-square&logo=openjdk&logoColor=white)
 ![Spring Boot](https://img.shields.io/badge/-Spring%20Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
