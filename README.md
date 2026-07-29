@@ -6,11 +6,11 @@ Interested in agentic engineering: building CLI agents that do the discovery, th
 
 ---
 
-### Explaining the integration architecture to stakeholders...
+### Production deployment at 3 AM...
 
-![Explaining Enterprise Integration](https://media.giphy.com/media/l0IylOPCNkiqOgMyA/giphy.gif)
+![Integration Deployment](https://media.giphy.com/media/9M5jK4GXmD5o1irGrF/giphy.gif)
 
-> *"So System A drops an XML on FTP, which triggers a 2008 MQ job, which talks to Dave's Excel macro..."*
+> *"Everything is fine. The MQ queue will clear itself eventually."*
 
 ---
 
