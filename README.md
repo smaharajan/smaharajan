@@ -6,6 +6,6 @@ Interested in agentic engineering: building CLI agents that do the discovery, th
 
 ---
 
-![Enterprise Integration in Action](https://media.giphy.com/media/JIX9t2j0ZTN9S/giphy.gif)
-
-> *"Me rewriting 2,000 legacy IBM integration flows into Spring Boot & Azure..."*
+<p align="center">
+  <img src="https://media.giphy.com/media/3o7btPCcdNniyf0ArS/giphy.gif" width="480" alt="Integration in progress" />
+</p>
