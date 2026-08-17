@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./header.svg" alt="Som Maharajan — engineering leader, agentic engineering" width="720" />
+  <img src="./header.svg" alt="Agent session tracing an integration end-to-end" width="720" />
 </p>
 
 Engineering leader in enterprise integration.
