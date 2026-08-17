@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./header.svg" alt="A cat watching the aurora over night mountains" width="720" />
+  <img src="./header.gif" alt="A stag and a cat on the ridge at sunset" width="720" />
 </p>
 
 Engineering leader in enterprise integration.
