@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./header.svg" alt="Agent session tracing an integration end-to-end" width="720" />
+  <img src="./header.svg" alt="A cat watching the aurora over night mountains" width="720" />
 </p>
 
 Engineering leader in enterprise integration.
