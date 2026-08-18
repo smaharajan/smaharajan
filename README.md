@@ -2,7 +2,7 @@
   <img src="./header.gif" alt="A stag and a cat on the ridge at sunset" width="720" />
 </p>
 
-Engineering leader in enterprise integration.
+Engineering in Integration.
 
 Thousands of interfaces and decades of middleware, moved without stopping the business — migration is an engineering problem, not a lift-and-shift.
 
