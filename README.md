@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./header.gif" alt="A stag and a cat on the ridge at sunset" width="720" />
+  <img src="./assets/header.svg" alt="Somasundaram Maharajan — Integration, Platform and Agentic Engineering: an animated diagram of messages flowing from SAP through IBM ACE and IBM MQ, via Mule, into Azure" width="860" />
 </p>
 
 Engineering in Integration.
