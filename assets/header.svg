@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 268" width="880" height="268" role="img" aria-label="Somasundaram Maharajan — Integration, Platform and Agentic Engineering. An animated diagram of messages flowing from SAP through IBM ACE and IBM MQ, via Mule, into Azure.">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 268" width="880" height="268" role="img" aria-label="Somasundaram Maharajan — Integration, Platform and Agentic Engineering. An animated diagram of messages flowing through a pipeline: source, transform, transport, orchestrate, target.">
   <title>Somasundaram Maharajan — Integration, Platform and Agentic Engineering</title>
 
   <defs>
@@ -51,6 +51,7 @@
     .frame     { stroke: #2a3f63; }
     .node-face { fill: #111d33; }
     .node-text { fill: #cbd5e1; }
+    .node-dot  { fill: #64748b; }
     .edge      { stroke: #24395c; }
     .tag-face  { fill: #12203a; stroke: #24395c; }
     .tag-text  { fill: #8fa8c2; }
@@ -65,6 +66,7 @@
       .frame     { stroke: #cfdcea; }
       .node-face { fill: #ffffff; }
       .node-text { fill: #24384f; }
+      .node-dot  { fill: #94a3b8; }
       .edge      { stroke: #c2d2e4; }
       .tag-face  { fill: #ffffff; stroke: #cfdcea; }
       .tag-text  { fill: #48627c; }
@@ -176,31 +178,31 @@
     <g class="rise" style="animation-delay:.45s">
       <circle class="pulse" cx="132" cy="192" r="20" fill="none" stroke="#38bdf8" stroke-width="1.4" style="animation-delay:2.55s"/>
       <circle cx="132" cy="192" r="20" class="node-face" stroke="#38bdf8" stroke-width="1.6"/>
-      <text x="132" y="196" class="node-text" font-size="10">SAP</text>
+      <circle cx="132" cy="192" r="3.5" class="node-dot"/>
       <text x="132" y="234" class="tag-text" font-size="9.5" letter-spacing=".8">SOURCE</text>
     </g>
     <g class="rise" style="animation-delay:.55s">
       <circle class="pulse" cx="276" cy="192" r="20" fill="none" stroke="#38bdf8" stroke-width="1.4" style="animation-delay:0s"/>
       <circle cx="276" cy="192" r="20" class="node-face" stroke="#38bdf8" stroke-width="1.6"/>
-      <text x="276" y="196" class="node-text" font-size="10">ACE</text>
+      <circle cx="276" cy="192" r="3.5" class="node-dot"/>
       <text x="276" y="234" class="tag-text" font-size="9.5" letter-spacing=".8">TRANSFORM</text>
     </g>
     <g class="rise" style="animation-delay:.65s">
       <circle class="pulse" cx="420" cy="192" r="20" fill="none" stroke="#2dd4bf" stroke-width="1.4" style="animation-delay:.85s"/>
       <circle cx="420" cy="192" r="20" class="node-face" stroke="#2dd4bf" stroke-width="1.6"/>
-      <text x="420" y="196" class="node-text" font-size="10">MQ</text>
+      <circle cx="420" cy="192" r="3.5" class="node-dot"/>
       <text x="420" y="234" class="tag-text" font-size="9.5" letter-spacing=".8">TRANSPORT</text>
     </g>
     <g class="rise" style="animation-delay:.75s">
       <circle class="pulse" cx="564" cy="192" r="20" fill="none" stroke="#2dd4bf" stroke-width="1.4" style="animation-delay:1.7s"/>
       <circle cx="564" cy="192" r="20" class="node-face" stroke="#2dd4bf" stroke-width="1.6"/>
-      <text x="564" y="196" class="node-text" font-size="10">MULE</text>
-      <text x="564" y="234" class="tag-text" font-size="9.5" letter-spacing=".8">ADAPT</text>
+      <circle cx="564" cy="192" r="3.5" class="node-dot"/>
+      <text x="564" y="234" class="tag-text" font-size="9.5" letter-spacing=".8">ORCHESTRATE</text>
     </g>
     <g class="rise" style="animation-delay:.85s">
       <circle class="pulse" cx="708" cy="192" r="20" fill="none" stroke="#fbbf24" stroke-width="1.4" style="animation-delay:2.55s"/>
       <circle cx="708" cy="192" r="20" class="node-face" stroke="#fbbf24" stroke-width="1.6"/>
-      <text x="708" y="196" class="node-text" font-size="10">AZURE</text>
+      <circle cx="708" cy="192" r="3.5" class="node-dot"/>
       <text x="708" y="234" class="tag-text" font-size="9.5" letter-spacing=".8">TARGET</text>
     </g>
   </g>
