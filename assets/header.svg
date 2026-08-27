@@ -50,7 +50,6 @@
     .role      { fill: #9fb3c8; }
     .frame     { stroke: #2a3f63; }
     .node-face { fill: #111d33; }
-    .node-text { fill: #cbd5e1; }
     .node-dot  { fill: #64748b; }
     .edge      { stroke: #24395c; }
     .tag-face  { fill: #12203a; stroke: #24395c; }
@@ -65,7 +64,6 @@
       .role      { fill: #3d566f; }
       .frame     { stroke: #cfdcea; }
       .node-face { fill: #ffffff; }
-      .node-text { fill: #24384f; }
       .node-dot  { fill: #94a3b8; }
       .edge      { stroke: #c2d2e4; }
       .tag-face  { fill: #ffffff; stroke: #cfdcea; }
@@ -207,9 +205,4 @@
     </g>
   </g>
 
-  <g class="rise" style="animation-delay:.95s">
-    <rect x="756" y="171" width="88" height="42" rx="10" class="tag-face" stroke-width="1"/>
-    <text x="800" y="190" class="node-text" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" font-weight="700">1000s</text>
-    <text x="800" y="204" class="tag-text" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="8.5" letter-spacing=".9">INTERFACES</text>
-  </g>
 </svg>
