@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/header.svg" alt="Somasundaram Maharajan — Integration, Platform and Agentic Engineering: an animated diagram of messages flowing through a pipeline: source, transform, transport, orchestrate, target" width="860" />
+  <img src="./assets/header.svg" alt="Integration, Platform and Agentic Engineering: an animated diagram of messages flowing through a pipeline: source, transform, transport, orchestrate, target" width="860" />
 </p>
 
 Engineering in Integration.
